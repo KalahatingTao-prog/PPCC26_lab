@@ -43,5 +43,6 @@
   "barcodeScanUiScaffolded": true,
   "configDataDirectory": "/workspaces/PPCC26_lab/src/Packages.Main/Data",
   "configDataSchemaPath": "/workspaces/PPCC26_lab/src/Packages.Main/Data/data_schema.xml",
-  "configDataFilePath": "/workspaces/PPCC26_lab/src/Packages.Main/Data/data.xml"
+  "configDataFilePath": "/workspaces/PPCC26_lab/src/Packages.Main/Data/data.xml",
+  "testsUiScaffolded": true
 }
