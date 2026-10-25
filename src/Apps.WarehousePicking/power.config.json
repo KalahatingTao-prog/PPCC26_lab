@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "appId": "2b2f4ee9-e0f9-4480-85d7-08f54e783e44",
+  "appDisplayName": "Warehouse Picking",
+  "region": "prod",
+  "environmentId": null,
+  "description": "",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:5173",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "warehouseitems": {
+          "entitySetName": "lab_warehouseitems",
+          "logicalName": "lab_warehouseitem"
+        },
+        "warehousetransactions": {
+          "entitySetName": "lab_warehousetransactions",
+          "logicalName": "lab_warehousetransaction"
+        },
+        "warehouselocations": {
+          "entitySetName": "lab_warehouselocations",
+          "logicalName": "lab_warehouselocation"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
